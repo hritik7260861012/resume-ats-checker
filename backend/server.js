@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: "https://resume-ats-checker-tw5s.vercel.app",
+  origin: "https://resume-ats-checker-tw5s-476kq1zs6-hritik7260861012s-projects.vercel.app",
   credentials: true
 }));
 app.use(express.json());
