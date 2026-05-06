@@ -7,6 +7,7 @@ import LoadingSpinner from './components/LoadingSpinner';
 import './App.css';
 
 const API_URL = "https://resume-ats-checker-4z35.onrender.com/api";
+console.log("API URL:", API_URL);
 function App() {
   const [file, setFile] = useState(null);
   const [fileError, setFileError] = useState(null);
