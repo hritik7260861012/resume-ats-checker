@@ -6,8 +6,7 @@ import Results from './components/Results';
 import LoadingSpinner from './components/LoadingSpinner';
 import './App.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
-
+const API_URL = "https://resume-ats-checker-4z35.onrender.com/api";
 function App() {
   const [file, setFile] = useState(null);
   const [fileError, setFileError] = useState(null);
